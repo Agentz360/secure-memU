@@ -18,6 +18,10 @@
 
 MemU is an agentic memory framework for LLM and AI agent backends. It receives **multimodal inputs** (conversations, documents, images), extracts them into structured memory, and organizes them into a **hierarchical file system** that supports both **embedding-based (RAG)** and **non-embedding (LLM)** retrieval.
 
+---
+
+MemU is collaborating with four open-source projects to launch the 2026 New Year Challenge. 🎉Between January 8–18, contributors can submit PRs to memU and earn cash rewards, community recognition, and platform credits. 🎁[Learn more & get involved](https://discord.gg/KaWy6SBAsx)
+
 ## ✨ Core Features
 
 | Feature | Description |
@@ -317,7 +321,7 @@ View detailed experimental data: [memU-experiment](https://github.com/NevaMind-A
 <div align="center">
 
 <a href="https://github.com/TEN-framework/ten-framework"><img src="https://avatars.githubusercontent.com/u/113095513?s=200&v=4" alt="Ten" height="40" style="margin: 10px;"></a>
-<a href="https://github.com/openagents-org/openagents"><img src="assets/partners/openagents.png" alt="OpenAgents" height="40" style="margin: 10px;"></a>
+<a href="GitHub - openagents-org/openagents: OpenAgents - AI Agent Networks for Open Collaboration"><img src="assets/partners/openagents.png" alt="OpenAgents" height="40" style="margin: 10px;"></a>
 <a href="https://github.com/milvus-io/milvus"><img src="https://miro.medium.com/v2/resize:fit:2400/1*-VEGyAgcIBD62XtZWavy8w.png" alt="Milvus" height="40" style="margin: 10px;"></a>
 <a href="https://xroute.ai/"><img src="assets/partners/xroute.png" alt="xRoute" height="40" style="margin: 10px;"></a>
 <a href="https://jaaz.app/"><img src="assets/partners/jazz.png" alt="Jazz" height="40" style="margin: 10px;"></a>
@@ -337,7 +341,7 @@ View detailed experimental data: [memU-experiment](https://github.com/NevaMind-A
 
 ## 🌍 Community
 
-- **GitHub Issues**: [Report bugs & request features](https://github.com/NevaMind-AI/memU/issues)
+- **GitHub Issues**: [Report bugs & request features](NevaMind-AI/memU)
 - **Discord**: [Join the community](https://discord.com/invite/hQZntfGsbJ)
 - **X (Twitter)**: [Follow @memU_ai](https://x.com/memU_ai)
 - **Contact**: info@nevamind.ai
