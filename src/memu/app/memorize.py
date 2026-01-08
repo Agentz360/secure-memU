@@ -24,6 +24,7 @@ from memu.prompts.memory_type import (
     CUSTOM_PROMPTS as MEMORY_TYPE_CUSTOM_PROMPTS,
 )
 from memu.prompts.memory_type import (
+    CUSTOM_TYPE_CUSTOM_PROMPTS,
     DEFAULT_MEMORY_TYPES,
 )
 from memu.prompts.memory_type import (
@@ -438,12 +439,14 @@ class MemorizeMixin:
                 segments=segments,
                 llm_client=client,
             )
-            if entries:
-                return entries
-            no_result_entry = self._build_no_result_fallback(memory_types[0], resource_url, modality)
-            return [no_result_entry]
+            return entries
+            # if entries:
+            #     return entries
+            # no_result_entry = self._build_no_result_fallback(memory_types[0], resource_url, modality)
+            # return [no_result_entry]
 
-        return self._build_no_text_fallback(memory_types, resource_url, modality)
+        return []
+        # return self._build_no_text_fallback(memory_types, resource_url, modality)
 
     async def _generate_text_entries(
         self,
@@ -948,7 +951,9 @@ Summary:"""
         elif isinstance(configured_prompt, str):
             template = configured_prompt
         else:
-            template = self._resolve_custom_prompt(configured_prompt, MEMORY_TYPE_CUSTOM_PROMPTS.get(memory_type, {}))
+            template = self._resolve_custom_prompt(
+                configured_prompt, MEMORY_TYPE_CUSTOM_PROMPTS.get(memory_type, CUSTOM_TYPE_CUSTOM_PROMPTS)
+            )
         if not template:
             return resource_text
         safe_resource = self._escape_prompt_value(resource_text)

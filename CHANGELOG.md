@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.1.2](https://github.com/NevaMind-AI/memU/compare/v1.1.1...v1.1.2) (2026-01-08)
+
+
+### Bug Fixes
+
+* custom memory type default prompt ([#169](https://github.com/NevaMind-AI/memU/issues/169)) ([5a0032f](https://github.com/NevaMind-AI/memU/commit/5a0032fc0f29229524d0356d454a3f5991e04f7b))
+* prompt & item fallback ([#183](https://github.com/NevaMind-AI/memU/issues/183)) ([bc95ade](https://github.com/NevaMind-AI/memU/commit/bc95adeb26789104c0bbe199e126cf05def27941))
+
+
+### Documentation
+
+* add docs folder ([#181](https://github.com/NevaMind-AI/memU/issues/181)) ([919d2ca](https://github.com/NevaMind-AI/memU/commit/919d2caef23107d539c36f30c44d4fb5aa38b324))
+* fix issue template dropdown ([#167](https://github.com/NevaMind-AI/memU/issues/167)) ([14d0333](https://github.com/NevaMind-AI/memU/commit/14d03331ed14f1e593fdebbf561189a3775651be))
+* issue template fix ([#165](https://github.com/NevaMind-AI/memU/issues/165)) ([5d91237](https://github.com/NevaMind-AI/memU/commit/5d912372e1bf70d7ff573cd5b92e917118048e25))
+
+## [1.1.1](https://github.com/NevaMind-AI/memU/compare/v1.1.0...v1.1.1) (2026-01-07)
+
+
+### Bug Fixes
+
+* ensure both Linux x86_64 and ARM64 wheels are built ([#162](https://github.com/NevaMind-AI/memU/issues/162)) ([51c9ea4](https://github.com/NevaMind-AI/memU/commit/51c9ea4335a1e9eac227c79783d7aa8cca2b883b))
+
+
+### Documentation
+
+* add custom LLM and embedding configuration guide ([#160](https://github.com/NevaMind-AI/memU/issues/160)) ([29c414a](https://github.com/NevaMind-AI/memU/commit/29c414a84d1c9c2f989e2165d0b6508c3fe62862))
+* add template ([#158](https://github.com/NevaMind-AI/memU/issues/158)) ([b79a78d](https://github.com/NevaMind-AI/memU/commit/b79a78d25b96e670888c18b8f09277db33803865))
+
 ## [1.1.0](https://github.com/NevaMind-AI/memU/compare/v1.0.1...v1.1.0) (2026-01-07)
 
 
