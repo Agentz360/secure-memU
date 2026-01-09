@@ -12,11 +12,20 @@
 [![Discord](https://img.shields.io/badge/Discord-Join%20Chat-5865F2?logo=discord&logoColor=white)](https://discord.gg/memu)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?logo=x&logoColor=white)](https://x.com/memU_ai)
 
+<a href="https://trendshift.io/repositories/17374" target="_blank"><img src="https://trendshift.io/api/badge/repositories/17374" alt="NevaMind-AI%2FmemU | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
 </div>
 
 ---
 
 MemU is an agentic memory framework for LLM and AI agent backends. It receives **multimodal inputs** (conversations, documents, images), extracts them into structured memory, and organizes them into a **hierarchical file system** that supports both **embedding-based (RAG)** and **non-embedding (LLM)** retrieval.
+
+---
+
+## ⭐️ Star the repository
+
+<img width="100%" src="https://github.com/NevaMind-AI/memU/blob/main/assets/star.gif" />
+If you find memU useful or interesting, a GitHub Star ⭐️ would be greatly appreciated.
 
 ---
 
@@ -339,11 +348,6 @@ View detailed experimental data: [memU-experiment](https://github.com/NevaMind-A
 - 🚀 [Try MemU Cloud](https://app.memu.so/quick-start)
 - 📚 [API Documentation](https://memu.pro/docs)
 - 💬 [Discord Community](https://discord.gg/memu)
-
----
-
-<img width="100%" src="https://github.com/NevaMind-AI/memU/blob/main/assets/star.gif" />
-If you find memU useful or interesting, a GitHub Star ⭐️ would be greatly appreciated.
 
 ---
 
